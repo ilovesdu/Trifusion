@@ -117,5 +117,5 @@ def load_fold_data(args):
         edge_idx_dict[str(i)]["fold_valid_label_20p_20n"] = torch.tensor(fold_valid_label_20p_20n).to(torch.float32).to(
             device=args.device)
 
-    print('********************The training/validating set is complete********************')
+    print('********************training/validating set extraction finished********************')
     return edge_idx_dict, g
