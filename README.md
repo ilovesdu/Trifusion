@@ -8,5 +8,5 @@ dgl == 1.1.2
 networkx == 2.8.8             
 scikit-learn == 1.1.2            
 
-How to run            
+TO RUN:            
 execute train.py
